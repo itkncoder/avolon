@@ -2,75 +2,67 @@ import {Link} from "react-router-dom"
 
 const Add = () => {
     return (  
-        <div>
-            <div className="section">
-                <div className="section-div">
-                    <div className="relative flex-items-center">
-                        <Link to="/">
-                            <i className="icon balans-back fa-solid fa-angle-left"></i>
-                        </Link>                             
-                        <div className="fon balans-div">
-                            <div>
-                                <h2>Balans to'ldirish</h2>
-                                <p className="plus-top-desc">VIP harid qilish uchun ko'rsatilgan kartalardan
-                                    birini tanlang va to'lovni amalga oshiring:
-                                </p>
+        <div className="min-h-screen md:flex md:justify-center md:items-center">
+            <div className="flex flex-col items-center">
+                <Link to="/">
+                    <i className="hover:bg-zinc-800 transition-all fa-solid fa-angle-left absolute top-2 left-2 w-8 rounded-full h-8 flex justify-center items-center bg-zinc-900 text-yellow-500"></i>
+                </Link>
+                <div className="fon m-2 p-3 mt-14 rounded-xl">
+                    <h1 className="text-xl font-semibold text-white">Balans to'ldirish</h1>
+                    <p className="text-xs font-semibold text-white">VIP harid qilish uchun ko'rsatilgan kartalardan birini tanlang va to'lovni amalga oshiring:</p>
+                    <div className="flex flex-col items-start mt-3 max-h-72 overflow-y-auto">
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
                             </div>
-                            <div className="overflow">
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                                <div className="plus-card">
-                                    <div className="flex-col">
-                                        <h2>Jumaniyozov Asadbek</h2>
-                                        <p>9860350106454217</p>
-                                    </div>
-                                    <button className="auth-submit size-sm">Agentga chekni yuboring</button>
-                                </div>
-                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
-                        <p className="plus-desc">
-                            To'lovni qilib chekni agentga va botga yuboring.
-                            To'lovlarni qabul qilish vaqti 10:00-22:00 oralig'i.
-                            Soxta chekdan foydalanmang aks holda
-                            kabinetingiz 24 soatdan 108 soatgacha
-                            muzlatiladi
-                        </p>
-                        <button className="balans-btn">To'lov bot</button>
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
+                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                        </div>
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
+                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                        </div>
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
+                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                        </div>
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
+                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                        </div>
+                        <div className="flex justify-between my-1 border-t-2 py-1 w-full">
+                            <div className="flex flex-col">
+                                <h2 className="italic text-sm text-white">Jumaniyozov Asadbek</h2>
+                                <p className="text-xs text-white">9860350106454217</p>
+                            </div>
+                            <button className="text-2xs px-3 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                        </div>
                     </div>
                 </div>
+                <p className="text-sm font-semibold text-gray-200 p-3 sm:max-w-xl">
+                    To'lovni qilib chekni agentga va botga yuboring.
+                    To'lovlarni qabul qilish vaqti 10:00-22:00 oralig'i.
+                    Soxta chekdan foydalanmang aks holda
+                    kabinetingiz 24 soatdan 108 soatgacha
+                    muzlatiladi.
+                </p>
+                <button className="py-2 px-4 w-7/12 btn-fon rounded-3xl text-white font-semibold text-lg sm:w-72 mb-2">To'lov Bot</button>
             </div>
         </div>
     );

@@ -1,50 +1,38 @@
+import {Link} from "react-router-dom"
 import table1 from "../assets/table1.jpg"
 import table2 from "../assets/table2.jpg"
 import logo from "../assets/logo.jpg"
+import robot from "../assets/robot.png"
 
 const Stats = () => {
     return (  
-        <div>
-            <div className="section">
-                <div className="section-div">
-                    <div className="relative flex-items-center">
-                        <div className="balans-div">
-                            <div className="fon task-card task-card-top">
-                            <div className="task-card plus-card">
-                                    <img className="robot" src="https://cdn-icons-png.flaticon.com/512/6784/6784391.png" alt="robot" />
-                                    <a href="./">
-                                        <div className="flex">
-                                            <h2>Yordam bot</h2>
-                                            <i className="fa-solid fa-angle-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="tables">
-                                <img className="table-img" src={table1} alt="table" />
-                                <img className="table-img" src={table2} alt="table" />
-                            </div>
-                            <div>
-                                <div className="fon task-card plus-card">
-                                    <div>
-                                        <a href="./">
-                                            <div className="flex">
-                                                <i className="fa-solid fa-paper-plane"></i>
-                                                <p>GURUH</p>
-                                            </div>
-                                        </a>
-                                        <a href="./">
-                                            <div className="flex">
-                                                <i className="fa-solid fa-paper-plane"></i>
-                                                <p>KANAL</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <img className="logo" src={logo} alt="logo" />
-                                </div>
-                            </div>
-                        </div>
+        <div className="min-h-screen">
+            <div className="flex flex-col">
+                <div className="flex fon p-3 rounded-xl m-2 justify-around items-center">
+                    <img className="w-14" src={robot} alt="logo" />
+                    <div className="flex justify-center items-center gap-2">
+                        <h1 className="text-2xl text-white font-semibold">Yordam bot</h1>
+                        <Link to="./">
+                            <i className="hover:bg-zinc-800 transition-all w-8 rounded-full h-8 flex justify-center items-center bg-zinc-900 text-yellow-500 font-semibold fa-solid fa-angle-right"></i>
+                        </Link>
                     </div>
+                </div>  
+                <div className="flex flex-col items-center">
+                    <img className="max-w-screen-md w-full p-2 rounded-md" src={table1} alt="stats1" />
+                    <img className="max-w-screen-md w-full p-2 rounded-md" src={table2} alt="stats2" />
+                </div>
+                <div className="fon p-3 m-2 rounded-xl flex justify-between items-center md:px-10">
+                    <div className="flex flex-col items-start">
+                        <a className="flex justify-start items-center bg-zinc-900 py-1 px-6 my-2 rounded-lg gap-3" href="./">
+                            <i className="text-white border border-yellow-500 p-2 rounded-full fa-solid fa-paper-plane"></i>
+                            <p className="text-white font-semibold">GURUH</p>
+                        </a>
+                        <a className="flex justify-start items-center bg-zinc-900 py-1 px-6 my-2 rounded-lg gap-3" href="./">
+                            <i className="text-white border border-yellow-500 p-2 rounded-full fa-solid fa-paper-plane"></i>
+                            <p className="text-white font-semibold">KANAL</p>
+                        </a>
+                    </div>
+                    <img className="w-20 rounded-full" src={logo} alt="" />
                 </div>
             </div>
         </div>
