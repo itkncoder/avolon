@@ -1,0 +1,473 @@
+.section {
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-form {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: flex-end;
+    padding: 60px 15px 20px 15px;
+}
+input {
+    color: black;
+}
+.fon {
+    background-color: rgba(255, 255, 255, .4);
+}
+.input {
+    width: 275px;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 13px;
+}
+
+.section-div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+.auth-singin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.icon {
+    color: white;
+    margin-top: 3px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: #121413;
+    color: #D3AD19;
+}
+.auth-login {
+    display: block;
+    color: white;
+    cursor: pointer;
+}
+.auth-login {
+    font-weight: 600;
+}
+.auth-submit {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #1E2221 !important;
+    color: #D3AD19 !important;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px !important;
+    border-radius: 30px !important;
+    transition: .3s all;
+}
+.auth-submit:hover {
+    background-color: #121413 !important;
+}
+.balans {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.balans h2 {
+    font-size: 32px;
+}
+.balans p {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.semibold {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.balans-div {
+    border-radius: 20px;
+    padding: 25px 15px;
+    margin-bottom: 15px;
+}
+.balans-btn {
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(12, 12, 12, 0.6);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    padding: 12px !important;
+    border-radius: 30px !important;
+    transition: .3s all;
+}
+.balans-btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.flex-items-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relative {
+    position: relative;
+}
+.olib-tashlash-item {
+    color: rgb(235, 235, 235);
+    font-size: 14px;
+}
+.balans-back {
+    position: absolute;
+    left: -20px;
+    top: -30px;
+}
+.vip {
+    background-image: url(./assets/bg2.jpg);
+}
+.vip-color {
+    color: #121413;
+}
+.vip-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: none;
+}
+.vip-card {
+    border: 2px solid #D3AD19;
+    padding: 15px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.vip-card h1 i, .vip-card p {
+    color: #121413;
+}
+.vipp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.vip-desc {
+    color: #D3AD19;
+    margin: 20px 0 0 0;
+}
+.plus-desc {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(245, 245, 245);
+}
+.plus-top-desc {
+    max-width: 300px;
+    font-weight: 600;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.plus-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px 0;
+    gap: 10px;
+    border-top: 2px solid white;
+}
+.size-sm {
+    font-size: 10px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-col h2 {
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+.flex-col p {
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.task-card {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 8px 0;
+    border-top: none;
+    width: 300px;
+}
+.flex-col2 h2 {
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    word-wrap: break-word;
+    font-size: 22px;
+}
+
+.flex-col2 p span {
+    color: rgb(209, 0, 0);
+}
+.task-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.min-w {
+    width: 150px;
+}
+.text-center {
+    font-weight: 600;
+    margin-left: 10px;
+}
+.yellow {
+    background-color: #FCC018;
+}
+.p-many {
+    padding: 15px 10px;
+}
+.history {
+    background-color: #FF7B02;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 0;
+    border-radius: 15px;
+}
+.history a {
+    border-top: 1.5px solid white;
+    color: white;
+    padding: 3px 20px 1px 20px;
+}
+.history a:first-child {
+    border: none;
+}
+.tasks-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tasks-card div {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks-card div div {
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-card div div p:first-child {
+    background-color: white;
+    padding: 3px;
+    color: black;
+    border-radius: 4px;
+}
+
+.tasks-card div div p:last-child {
+    font-size: 14px;
+    color: rgb(22, 22, 22);
+}
+
+.home-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.home-cards div i {
+    padding: 10px;
+    font-size: 28px;
+    background-color: #FF7B02;
+    border-radius: 50%;
+}
+.home-cards div p {
+    color: black;
+    font-size: 14px;
+}
+
+.home-cards div {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.over2 {
+    max-height: 500px !important;
+}
+
+
+
+
+
+@media screen and (min-width: 720px) {
+    .input {
+        width: 360px;
+    }
+    .section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section div {
+        max-width: 1020px;
+    }
+    .plus-card {
+        width: 500px;
+        padding: 10px 20px;
+    }
+    .balans-div {
+        padding: 20px 40px;
+    }
+    .plus-desc {
+        font-size: 17px;
+        text-align: center;
+    }
+    .auth-submit {
+        width: auto;
+    }
+    .olib-tashlash-item {
+        font-size: 16px;
+    }
+    .task-card-top {
+        width: 500px;
+    }
+    .min-w {
+        width: 180px;
+    }
+    .tasks-card div {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .home-cards {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .icon {
+        position: absolute;
+        top: 0;
+        left: -30px;
+    }
+    .vip-cards {
+        max-width: 500px !important;
+    }
+    .overflow {
+        max-height: 280px !important;
+    }
+    .icon-auth {
+        position: inherit;
+    }
+}
+.flex {
+    background-color: #121413;
+    margin-top: 6px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.table-img {
+    max-width: 500px;
+    border-radius: 10px;
+    padding-right: 8px;
+}
+.tables {
+    overflow-y: auto;
+    max-height: 380px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    border-radius: 50%;
+    width: 80px;
+}
+.robot {
+    width: 50px;
+}
+.black {
+    color: rgb(21, 21, 21);
+}
+
+@media screen and (max-width: 480px) {
+    .section {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .logo {
+        width: 50px;
+    }
+    .tasks-card div div p {
+        font-size: 14px;
+    }
+    .tasks-card div {
+        gap: 5px;
+    }
+    .tasks-card div div p:last-child {
+        font-size: 12px;
+        text-align: center;
+    }
+    .home-cards div p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .section-div {
+        padding: 20px 0 0 0 !important;
+        align-items: flex-start;
+    }
+    .balans-div {
+        padding: 0px !important;
+    }
+    .icon {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+    }
+    .overflow {
+        max-height: 260px !important;
+    }
+    .over2 {
+        max-height: 200px;
+    }
+    .vip-cards {
+        padding: 10px 30px;
+    }
+    .flex-items-center div {
+        padding: 10px;
+    }
+    .p-many {
+        gap: 2px;
+
+    }
+    .p-many div {
+        padding: 2px;
+        gap: 2px;
+    }
+}
