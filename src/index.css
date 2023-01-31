@@ -9,12 +9,12 @@
     font-family: Montserrat, Calibri;
 }
 body {
-    background-image: url(./src/assets/bg.png);
+    background-image: url(./assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-2 {
-    background-image: url(./src/assets/bg2.jpg);
+    background-image: url(./assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
