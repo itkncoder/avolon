@@ -7,7 +7,7 @@ const Home = () => {
             <div className="lg:max-w-screen-md">
                 <div className="flex bg-yellow-400 p-3 rounded-xl m-2 justify-around items-start sm:justify-start sm:gap-8">
                     <img className="w-20 rounded-full" src={logo} alt="logo" />
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col items-start sm:w-full">
                         <h1 className="text-3xl font-semibold">* * 1234</h1>
                         <h3 className="text-xl font-semibold">17.04.2023</h3>
                     </div>
