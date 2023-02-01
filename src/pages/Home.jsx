@@ -74,11 +74,11 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="py-3 m-2 bg-orange-500 rounded-xl">
-                    <ul className="flex flex-col items-start divide-y-2 gap-0.5">
-                        <li>
+                    <ul className="flex flex-col divide-y-2 gap-0.5">
+                        <li className="py-0.5 w-full">
                             <Link className="px-3 py-0.5 pt-1 hover:underline w-fit font-semibold text-white" to="./addhistory">Balans to'ldirish tarixi</Link>
                         </li>
-                        <li className="w-full pt-0.5">
+                        <li className="py-0.5 w-full">
                             <Link className="px-3 py-1 hover:underline w-fit font-semibold text-white" to="./payhistory">Olib tashlash tarixi</Link>
                         </li>
                         <li className="w-full pt-0.5">
