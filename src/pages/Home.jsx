@@ -46,7 +46,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white flex justify-around items-center p-3 m-2 gap-1 rounded-xl sm:justify-center sm:gap-6 md:gap-3 md:w-6/12">
+                    <div className="bg-white flex justify-around items-center p-2 m-2 gap-1 rounded-xl sm:justify-center sm:gap-6 md:gap-3 md:w-6/12">
                         <Link to="./vip">
                             <div className="flex flex-col items-center">
                                 <p className="text-white bg-orange-500 w-14 h-14 rounded-full flex justify-center items-center">

@@ -16,39 +16,39 @@ const Add = () => {
                                 <h2 className="italic font-semibold text-white">Jumaniyozov Asadbek</h2>
                                 <p className="text-sm text-white">9860350106454217</p>
                             </div>
-                            <button className="text-3xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                            <button className="text-xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
                         <div className="flex justify-between my-1 border-t-2 py-1 w-full">
                             <div className="flex flex-col">
                                 <h2 className="italic font-semibold text-white">Jumaniyozov Asadbek</h2>
                                 <p className="text-sm text-white">9860350106454217</p>
                             </div>
-                            <button className="text-3xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                            <button className="text-xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
                         <div className="flex justify-between my-1 border-t-2 py-1 w-full">
                             <div className="flex flex-col">
                                 <h2 className="italic font-semibold text-white">Jumaniyozov Asadbek</h2>
                                 <p className="text-sm text-white">9860350106454217</p>
                             </div>
-                            <button className="text-3xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                            <button className="text-xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
                         <div className="flex justify-between my-1 border-t-2 py-1 w-full">
                             <div className="flex flex-col">
                                 <h2 className="italic font-semibold text-white">Jumaniyozov Asadbek</h2>
                                 <p className="text-sm text-white">9860350106454217</p>
                             </div>
-                            <button className="text-3xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                            <button className="text-xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
                         <div className="flex justify-between my-1 border-t-2 py-1 w-full">
                             <div className="flex flex-col">
                                 <h2 className="italic font-semibold text-white">Jumaniyozov Asadbek</h2>
                                 <p className="text-sm text-white">9860350106454217</p>
                             </div>
-                            <button className="text-3xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
+                            <button className="text-xs px-3 py-0 hover:bg-gray-900 cursor-pointer transition-all bg-zinc-900 rounded-3xl text-yellow-400 sm:text-sm">Agentga chekni yuboring</button>
                         </div>
                     </div>
                 </div>
-                <p className="text-sm font-semibold text-gray-200 p-3 sm:max-w-xl">
+                <p className="text-sm font-semibold text-gray-200 p-3 sm:max-w-lg">
                     To'lovni qilib chekni agentga va botga yuboring.
                     To'lovlarni qabul qilish vaqti 10:00-22:00 oralig'i.
                     Soxta chekdan foydalanmang aks holda
