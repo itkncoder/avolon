@@ -14,7 +14,7 @@ const Home = () => {
                     <h1 className="text-4xl font-bold italic sm:flex sm:justify-end sm:w-full">VIP5</h1>
                 </div>
                 <div className="flex flex-col md:flex-row md:justify-between">
-                    <div className="bg-yellow-400 flex justify-around items-center p-2 m-2 rounded-xl sm:justify-center sm:gap-6 md:w-7/12">
+                    <div className="bg-yellow-400 flex justify-around items-center px-1 py-3 m-2 rounded-xl sm:justify-center sm:gap-6 md:w-7/12">
                         <div className="flex flex-col items-center gap-2 sm:gap-3">
                             <div className="flex flex-col items-center">
                                 <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
