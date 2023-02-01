@@ -11,14 +11,14 @@ const Payhistory = () => {
                     <h1 className="text-2xl text-white font-semibold">Olib tashlash tarixi</h1>
                     
                     <div className="fon p-3 my-2 rounded-xl flex justify-start gap-5 items-center">
-                        <i class="pl-2 text-xl text-rose-600 fa-solid fa-upload"></i>
+                        <i className="pl-2 text-xl text-rose-600 fa-solid fa-upload"></i>
                         <div className="flex flex-col items-start">
                             <h2 className="font-semibold text-xl text-white">1 020 so'm</h2>
                             <p className="text-white font-semibold">01.02.2023</p>
                         </div>
                     </div>
                     <div className="fon p-3 my-2 rounded-xl flex justify-start gap-5 items-center">
-                        <i class="pl-2 text-xl text-rose-600 fa-solid fa-upload"></i>
+                        <i className="pl-2 text-xl text-rose-600 fa-solid fa-upload"></i>
                         <div className="flex flex-col items-start">
                             <h2 className="font-semibold text-xl text-white">1 020 so'm</h2>
                             <p className="text-white font-semibold">01.02.2023</p>

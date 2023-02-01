@@ -52,7 +52,7 @@ const Home = () => {
                                 <p className="text-white bg-orange-500 w-14 h-14 rounded-full flex justify-center items-center">
                                     <i className="fa-solid fa-gem text-2xl"></i>
                                 </p>
-                                <p className="text-xs font-semibold mt-1">VIPni to'ldirish</p>
+                                <p className="text-sm font-semibold mt-1">VIPni to'ldirish</p>
                             </div>
                         </Link>
                         <Link to="./addbalans">
@@ -60,7 +60,7 @@ const Home = () => {
                                 <p className="text-white bg-orange-500 w-14 h-14 rounded-full flex justify-center items-center">
                                     <i className="fa-solid fa-wallet text-2xl"></i>
                                 </p>
-                                <p className="text-xs font-semibold mt-1">Balans to'ldirish</p>
+                                <p className="text-sm font-semibold mt-1">Balans to'ldirish</p>
                             </div>
                         </Link>
                         <Link to="./pay">
@@ -68,7 +68,7 @@ const Home = () => {
                                 <p className="text-white bg-orange-500 w-14 h-14 rounded-full flex justify-center items-center">
                                     <i className="fa-solid fa-credit-card text-2xl"></i>
                                 </p>
-                                <p className="text-xs font-semibold mt-1">Olib tashlash</p>
+                                <p className="text-sm font-semibold mt-1">Olib tashlash</p>
                             </div>
                         </Link>
                     </div>

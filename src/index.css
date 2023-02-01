@@ -11,9 +11,12 @@
 body {
     background-image: url(./assets/bg.svg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-2 {
     background-image: url(./assets/bg3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 *::-webkit-scrollbar {
     width: 8px;
