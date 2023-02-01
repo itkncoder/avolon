@@ -75,21 +75,29 @@ const Home = () => {
                 </div>
                 <div className="py-3 m-2 bg-orange-500 rounded-xl">
                     <ul className="flex flex-col divide-y-2 gap-0.5">
-                        <li className="py-0.5 w-full">
-                            <Link className="px-3 py-0.5 pt-1 hover:underline w-fit font-semibold text-white" to="./addhistory">Balans to'ldirish tarixi</Link>
-                        </li>
-                        <li className="py-0.5 w-full">
-                            <Link className="px-3 py-1 hover:underline w-fit font-semibold text-white" to="./payhistory">Olib tashlash tarixi</Link>
-                        </li>
+                        <Link to="./addhistory">
+                            <li className="py-0.5 w-full">
+                                <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Balans to'ldirish tarixi</p>
+                            </li>
+                        </Link>
+                        <Link to="./payhistory">
+                            <li className="py-0.5 w-full">
+                                <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Olib tashlash tarixi</p>
+                            </li>
+                        </Link>
                         <li className="w-full pt-0.5">
                             <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Mening jamoam</a>
                         </li>
-                        <li className="w-full pt-0.5">
-                            <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Bank karta ulash</a>
-                        </li>
-                        <li className="w-full pt-0.5l">
-                            <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Taklif havolasi</a>
-                        </li>
+                        <Link to="./cart">
+                            <li className="py-0.5 w-full">
+                                <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Bank karta ulash</p>
+                            </li>
+                        </Link>
+                        <Link to="./referal">
+                            <li className="py-0.5 w-full">
+                                <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Taklif havolasi</p>
+                            </li>
+                        </Link>
                         <li className="w-full pt-0.5">
                             <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Chiqish</a>
                         </li>

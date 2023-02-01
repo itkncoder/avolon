@@ -12,6 +12,8 @@ import Stats from "./pages/Stats"
 import Admin from "./pages/Admin"
 import Addhistory from "./pages/Addhistory"
 import Payhistory from "./pages/Payhistory"
+import Cart from "./pages/Cart"
+import Referal from "./pages/Referal"
 
 function App() {
 
@@ -31,6 +33,8 @@ function App() {
                 <Route path="/admin/adminpanel" element={<Admin/>} />
                 <Route path="/addhistory" element={<Addhistory/>} />
                 <Route path="/payhistory" element={<Payhistory/>} />
+                <Route path="/cart" element={<Cart/>} />
+                <Route path="/referal" element={<Referal/>} />
             </Routes>
 
         </div>
