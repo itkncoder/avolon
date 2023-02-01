@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
-import fon from "./assets/bg.png"
 import {Routes, Route} from "react-router-dom"
+import fon from "./assets/bg.png"
 import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Pay from "./pages/Pay"
