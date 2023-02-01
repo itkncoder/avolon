@@ -10,6 +10,8 @@ import VipTasks from "./pages/VipTasks"
 import Task from "./pages/Task"
 import Stats from "./pages/Stats"
 import Admin from "./pages/Admin"
+import Addhistory from "./pages/Addhistory"
+import Payhistory from "./pages/Payhistory"
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
                 <Route path="/task" element={<Task/>} />
                 <Route path="/stats" element={<Stats/>} />
                 <Route path="/admin/adminpanel" element={<Admin/>} />
+                <Route path="/addhistory" element={<Addhistory/>} />
+                <Route path="/payhistory" element={<Payhistory/>} />
             </Routes>
 
         </div>

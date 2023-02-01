@@ -5,7 +5,7 @@ const Home = () => {
     return (  
         <div className="bg-1 lg:flex lg:justify-center lg:items-center min-h-screen">
             <div className="lg:max-w-screen-md">
-                <div className="flex bg-yellow-400 p-3 rounded-xl m-2 justify-between items-start sm:justify-start sm:gap-8">
+                <div className="flex bg-yellow-400 p-3 rounded-xl m-2 justify-around items-center sm:justify-start sm:gap-8">
                     <img className="w-20 rounded-full" src={logo} alt="logo" />
                     <div className="flex flex-col items-start sm:w-full">
                         <h1 className="text-3xl font-semibold">* * 1234</h1>
@@ -76,10 +76,10 @@ const Home = () => {
                 <div className="py-3 m-2 bg-orange-500 rounded-xl">
                     <ul className="flex flex-col items-start divide-y-2 gap-0.5">
                         <li>
-                            <a className="px-3 py-0.5 pt-1 hover:underline w-fit font-semibold text-white" href="./">Balans to'ldirish tarixi</a>
+                            <Link className="px-3 py-0.5 pt-1 hover:underline w-fit font-semibold text-white" to="./addhistory">Balans to'ldirish tarixi</Link>
                         </li>
                         <li className="w-full pt-0.5">
-                            <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Olib tashlash tarixi</a>
+                            <Link className="px-3 py-1 hover:underline w-fit font-semibold text-white" to="./payhistory">Olib tashlash tarixi</Link>
                         </li>
                         <li className="w-full pt-0.5">
                             <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Mening jamoam</a>
