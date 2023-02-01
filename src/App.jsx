@@ -14,6 +14,7 @@ import Addhistory from "./pages/Addhistory"
 import Payhistory from "./pages/Payhistory"
 import Cart from "./pages/Cart"
 import Referal from "./pages/Referal"
+import Myteam from "./pages/Myteam"
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/payhistory" element={<Payhistory/>} />
                 <Route path="/cart" element={<Cart/>} />
                 <Route path="/referal" element={<Referal/>} />
+                <Route path="/myteam" element={<Myteam/>} />
             </Routes>
 
         </div>

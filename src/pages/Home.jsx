@@ -85,9 +85,11 @@ const Home = () => {
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Olib tashlash tarixi</p>
                             </li>
                         </Link>
-                        <li className="w-full pt-0.5">
-                            <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Mening jamoam</a>
-                        </li>
+                        <Link to="./myteam">
+                            <li className="py-0.5 w-full">
+                                <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Mening jamoam</p>
+                            </li>
+                        </Link>
                         <Link to="./cart">
                             <li className="py-0.5 w-full">
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Bank karta ulash</p>
