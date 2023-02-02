@@ -17,31 +17,31 @@ const Home = () => {
                     <div className="bg-yellow-400 flex justify-around items-center px-1 py-3 m-2 rounded-xl sm:justify-center sm:gap-6 md:w-7/12 md:gap-2 md:px-2">
                         <div className="flex flex-col items-center gap-2 sm:gap-3">
                             <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
                                 <p className="text-sm sm:text-sm">Jami daromad</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
-                                <p className="text-sm sm:text-sm">Jami daromad</p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 sm:gap-3">
-                            <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal md:rounded-md sm:rounded-md">100000000</p>
-                                <p className="text-sm sm:text-sm">Jami daromad</p>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
                                 <p className="text-sm sm:text-sm">Jami daromad</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center gap-2 sm:gap-3">
                             <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal md:rounded-md sm:rounded-md">100000000</p>
                                 <p className="text-sm sm:text-sm">Jami daromad</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <p className="text-md font-semibold bg-white text-gray-800 rounded-md py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-sm sm:text-sm">Jami daromad</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-col items-center gap-2 sm:gap-3">
+                            <div className="flex flex-col items-center">
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
+                                <p className="text-sm sm:text-sm">Jami daromad</p>
+                            </div>
+                            <div className="flex flex-col items-center">
+                                <p className="text-md font-semibold bg-white text-gray-800 rounded-lg py-0.5 px-1 sm:px-4 sm:py-2 sm:text-normal sm:rounded-md">100000000</p>
                                 <p className="text-sm sm:text-sm">Jami daromad</p>
                             </div>
                         </div>
