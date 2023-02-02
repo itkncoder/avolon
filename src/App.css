@@ -2,7 +2,7 @@
     background-color: rgba(255, 255, 255, 0.4);
 }
 .btn-fon {
-    background-color: rgba(56, 56, 56, 0.5);
+    background-color: rgba(56, 56, 56, 0.7);
     transition: .3s all;
 }
 .text-2xs {
@@ -16,4 +16,7 @@
 }
 .text-3xs {
     font-size: 10px;
+}
+.max-h-fulll {
+    max-height: 70vh;
 }

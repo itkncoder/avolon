@@ -24,6 +24,7 @@ const Addhitory = () => {
                             <p className="text-white font-semibold">01.02.2023</p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
