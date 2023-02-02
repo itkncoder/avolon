@@ -11,25 +11,25 @@ const Pay = () => {
                 <div className="flex justify-center w-full">
                     <div className="fon m-2 p-3 rounded-xl w-full flex flex-col items-start mt-14">
                         <div className="flex justify-start items-center gap-2">
-                            <h2 className="text-white text-2xl font-semibold">Balans</h2>
-                            <p className="bg-white p-1 rounded-md text-sm">100000000</p>
+                            <h2 className="text-white text-3xl font-semibold">Balans</h2>
+                            <p className="bg-white p-1 rounded-md">100000000</p>
                         </div>
                         <div>
-                            <p className="mt-2 font-semibold text-white text-sm sm:text-lg">Naqt pul yechib olish uchun hisob:</p>
+                            <p className="mt-2 font-semibold text-white sm:text-lg">Naqt pul yechib olish uchun hisob:</p>
                             <p className="text-white">9860590185327298</p>
                         </div>
                         <div className="mt-2 flex flex-col gap-0.5 sm:flex-row sm:items-center sm:gap-2">
-                            <label className="text-white font-semibold text-sm" htmlFor="pay">Olib tashlash miqdori (UZS):</label>
+                            <label className="text-white font-semibold" htmlFor="pay">Olib tashlash miqdori (UZS):</label>
                             <input className="py-2 px-5 w-60 sm:w-72 rounded-xl outline-0 focus:ring ring-gray-300" id="pay" type="text" placeholder="Iltimos yechib olish miqdorini kiriting" required />
                         </div>
                         <div className="mt-1 flex flex-col gap-0.5 sm:flex-row sm:items-center sm:gap-2 sm:mt-2">
-                            <label className="text-white font-semibold text-sm" htmlFor="parol">Pul yechish uchun parolni kiriting:</label>
+                            <label className="text-white font-semibold" htmlFor="parol">Pul yechish uchun parolni kiriting:</label>
                             <input className="py-2 px-5 w-60 sm:w-72 rounded-xl outline-0 focus:ring ring-gray-300" id="parol" type="text" placeholder="Iltimos parolni kiriting" required />
                         </div>
                     </div>
                 </div>
 
-                <p className="text-sm mt-2 text-gray-200 p-2 sm:max-w-xl sm:flex sm:justify-start sm:w-full">
+                <p className="text-sm mt-2 text-gray-300 p-2 sm:max-w-xl sm:flex sm:justify-start sm:w-full">
                     Kuniga pul o'tkazmalari soni: 1 <br />
                     Pul yechib olish uchun to'lov: 7% <br />
                     Pul yechib olish minimal miqdori: 20000 UZS <br />
@@ -40,7 +40,7 @@ const Pay = () => {
                 </p>
 
                 <div className="flex justify-center w-full">
-                    <button className="mt-10 py-2 px-4 w-7/12 btn-fon rounded-3xl text-white font-semibold text-lg sm:w-72 mb-2">Yechib olish</button>
+                    <button className="mt-10 py-2 px-4 w-10/12 btn-fon rounded-3xl text-white font-semibold text-lg sm:w-72 mb-2">Yechib olish</button>
                 </div>
             </div>
         </div>
