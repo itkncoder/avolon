@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 const Cart = () => {
     return (
-        <div className="max-h-screen">
+        <div className="h-screen flex flex-col">
             <div className="sm:p-2">
                 <Link to="/">
                     <i className="hover:bg-zinc-800 transition-all fa-solid fa-angle-left absolute top-2 left-2 w-8 rounded-full h-8 flex justify-center items-center bg-zinc-900 text-yellow-500"></i>

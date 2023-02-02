@@ -7,7 +7,7 @@ const Addhitory = () => {
                 <Link to="/">
                     <i className="hover:bg-zinc-800 transition-all fa-solid fa-angle-left absolute top-2 left-2 w-8 rounded-full h-8 flex justify-center items-center bg-zinc-900 text-yellow-500"></i>
                 </Link>
-                <div className="pt-14 p-3 m-2">
+                <div className="pt-14 p-2">
                     <h1 className="text-2xl text-white font-semibold">Balans to'ldirish tarixi</h1>
                     
                     <div className="fon p-3 my-2 rounded-xl flex justify-start gap-5 items-center">

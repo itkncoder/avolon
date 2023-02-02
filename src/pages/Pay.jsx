@@ -9,7 +9,7 @@ const Pay = () => {
                 </Link>
 
                 <div className="flex justify-center w-full">
-                    <div className="fon m-2 p-3 rounded-xl w-full flex flex-col items-start mt-14">
+                    <div className="fon p-3 rounded-xl w-full flex flex-col items-start mt-14">
                         <div className="flex justify-start items-center gap-2">
                             <h2 className="text-white text-3xl font-semibold">Balans</h2>
                             <p className="bg-white p-1 rounded-md">100000000</p>
