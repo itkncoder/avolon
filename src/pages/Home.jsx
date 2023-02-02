@@ -76,32 +76,38 @@ const Home = () => {
                 <div className="py-3 m-2 bg-orange-500 rounded-xl">
                     <ul className="flex flex-col divide-y-2 gap-0.5">
                         <Link to="./addhistory">
-                            <li className="py-0.5 w-full">
+                            <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                                <i class="text-white text-lg fa-solid fa-clock-rotate-left"></i>
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Balans to'ldirish tarixi</p>
                             </li>
                         </Link>
                         <Link to="./payhistory">
-                            <li className="py-0.5 w-full">
+                            <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                                <i class="text-white text-lg fa-solid fa-clock"></i>
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Olib tashlash tarixi</p>
                             </li>
                         </Link>
                         <Link to="./myteam">
-                            <li className="py-0.5 w-full">
+                            <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                                <i class="text-white text-lg  fa-solid fa-users"></i>
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Mening jamoam</p>
                             </li>
                         </Link>
                         <Link to="./cart">
-                            <li className="py-0.5 w-full">
+                            <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                                <i class="text-white text-lg fa-solid fa-credit-card"></i>
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Bank karta ulash</p>
                             </li>
                         </Link>
                         <Link to="./referal">
-                            <li className="py-0.5 w-full">
+                            <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                                <i class="text-white text-lg fa-solid fa-link"></i>
                                 <p className="px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Taklif havolasi</p>
                             </li>
                         </Link>
-                        <li className="w-full pt-0.5">
-                            <a className="px-3 py-1 hover:underline w-fit font-semibold text-white" href="./">Chiqish</a>
+                        <li className="py-0.5 w-full flex justify-start items-center pl-4">
+                            <i class="text-white text-lg  fa-solid fa-right-from-bracket"></i>
+                            <p className="cursor-pointer px-3 py-0.5 pt-1 w-fit hover:text-gray-200 font-semibold text-white">Chiqish</p>
                         </li>
                     </ul>
                 </div>
